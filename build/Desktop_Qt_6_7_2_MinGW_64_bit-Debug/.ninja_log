@@ -1,0 +1,25 @@
+# ninja log v6
+6	442	7460186923719756	Button_autogen/timestamp	a714732f3b4a4d79
+452	2019	7460186924364458	CMakeFiles/Button.dir/mainwindow.cpp.obj	d24d2e813eadfd35
+6	442	7460186923719756	Button_autogen/mocs_compilation.cpp	a714732f3b4a4d79
+6	442	7460186923719756	C:/Users/spiky/Documents/Button/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Button_autogen/timestamp	a714732f3b4a4d79
+6	442	7460186923719756	C:/Users/spiky/Documents/Button/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Button_autogen/mocs_compilation.cpp	a714732f3b4a4d79
+446	1966	7460186924303469	CMakeFiles/Button.dir/Button_autogen/mocs_compilation.cpp.obj	fe52955a04c7f47
+449	1973	7460186924338629	CMakeFiles/Button.dir/main.cpp.obj	4ddabf9a196b642e
+2020	2192	7460186940044476	Button.exe	a7041dac5a60b623
+5	26	7460189988531417	CMakeFiles/clean.additional	baedbe210acaa455
+26	33	7460189988745672	clean	577b940aee94fbd7
+16	447	7460189993207523	Button_autogen/timestamp	a714732f3b4a4d79
+16	447	7460189993207523	Button_autogen/mocs_compilation.cpp	a714732f3b4a4d79
+16	447	7460189993207523	C:/Users/spiky/Documents/Button/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Button_autogen/timestamp	a714732f3b4a4d79
+16	447	7460189993207523	C:/Users/spiky/Documents/Button/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Button_autogen/mocs_compilation.cpp	a714732f3b4a4d79
+448	1871	7460189993712455	CMakeFiles/Button.dir/Button_autogen/mocs_compilation.cpp.obj	fe52955a04c7f47
+451	1931	7460189993747466	CMakeFiles/Button.dir/main.cpp.obj	4ddabf9a196b642e
+454	2301	7460189993772770	CMakeFiles/Button.dir/mainwindow.cpp.obj	d24d2e813eadfd35
+2301	2459	7460190012246240	Button.exe	a7041dac5a60b623
+10	135	7460192473508576	Button_autogen/timestamp	a714732f3b4a4d79
+10	135	7460192473508576	Button_autogen/mocs_compilation.cpp	a714732f3b4a4d79
+10	135	7460192473508576	C:/Users/spiky/Documents/Button/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Button_autogen/timestamp	a714732f3b4a4d79
+10	135	7460192473508576	C:/Users/spiky/Documents/Button/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Button_autogen/mocs_compilation.cpp	a714732f3b4a4d79
+135	1861	7460192474760221	CMakeFiles/Button.dir/mainwindow.cpp.obj	d24d2e813eadfd35
+1861	2011	7460192492012933	Button.exe	a7041dac5a60b623
