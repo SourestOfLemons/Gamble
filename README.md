@@ -3,6 +3,7 @@ Not so shrimple...
 click this link for zip file
 
 [Stable - Windows 64](https://github.com/SourestOfLemons/Gamble/blob/main/build/Windows/Windows-Stable.zip?raw=true)
+[Latest - Windows 64](https://github.com/SourestOfLemons/Gamble/blob/main/build/Windows/Windows-Latest.zip?raw=true)
 
 then just open the exe once you have extracted it.
 
