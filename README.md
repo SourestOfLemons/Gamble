@@ -1,8 +1,12 @@
 Not so shrimple...
 
-click this link for zip file
+click this link for most stable release
 
 [Stable - Windows 64](https://github.com/SourestOfLemons/Gamble/blob/main/build/Windows/Windows-Stable.zip?raw=true)
+
+click this link for latest update
+
+[Latest - Windows 64](https://github.com/SourestOfLemons/Gamble/blob/main/build/Windows/Windows-Latest.zip?raw=true)
 
 then just open the exe once you have extracted it.
 
