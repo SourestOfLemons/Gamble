@@ -28,15 +28,24 @@ private slots:
 
     void on_buycasino_clicked();
 
+    void on_buyclub_clicked();
+
 private:
     Ui::MainWindow *ui;
-    int clickcount;
+    float clickcount;
+
     int workercount;
     float workerprice;
+
     int orphanagecount;
     float orphanageprice;
+
     int casinocount;
     float casinoprice;
+
+    int clubcount;
+    float clubprice;
+
     QTimer *timer;
 };
 #endif // MAINWINDOW_H

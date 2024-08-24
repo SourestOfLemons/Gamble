@@ -21,6 +21,9 @@ MainWindow::MainWindow(QWidget *parent)
     , casinocount(0)
     , casinoprice(600)
 
+    , clubcount(0)
+    , clubprice(5000)
+
     , timer(new QTimer(this))
 
 {
@@ -40,15 +43,16 @@ MainWindow::MainWindow(QWidget *parent)
     // Connect the timer's timeout signal to a slot that increments the counter
     connect(timer, &QTimer::timeout, this, [this]() {
 
-        int cps = (workercount / 2) + (orphanagecount*10) + (casinocount*50);
-        clickcount = clickcount + cps;
+        float cps = std::round((((static_cast<float>(workercount) / 10) + (orphanagecount) + (casinocount * 5) + (clubcount * 9))) * 100.0) / 100.0;
+
+        clickcount += std::round(cps * 100.0) / 100.0;
         ui->ClickCount->setText(QString::number(clickcount));
         qDebug() << "skibiby value:" << clickcount;  // Print the value (for testing)
-        ui->CPScounter ->setText(QString::number(cps));
+        ui->CPScounter ->setText(QString::number(cps*10));
     });
 
     // Start the timer with an interval of 1000 milliseconds (1 second)
-    timer->start(1000);
+    timer->start(100);
 }
 
 
@@ -148,6 +152,39 @@ void MainWindow::on_buycasino_clicked()
         });
     }
 }
+
+
+
+
+
+
+void MainWindow::on_buyclub_clicked()
+{
+    if(clickcount >= clubprice){
+        clickcount = (clickcount - clubprice);
+        ui->ClickCount->setText(QString::number(clickcount));
+        ui->PlusOne_4->setVisible(true);
+        clubcount++;
+        clubprice = std::round(clubprice * 1.4 * 100.0) / 100.0;
+        ui->ClubCounter->setText(QString::number(clubcount));  //IFIFEYUFUEFUAEFGUYEFUEFQGUYAEFGKU
+        ui->buyclub->setText(QString::number(clubprice) + "$");
+
+        QTimer::singleShot(1000, this, [this]() {
+            ui->PlusOne_4->setVisible(false);  // Disable the Warning label
+        });
+    }
+    else {
+        std::cout << "Nuh uh buddy" << std::endl;
+        ui->Warning->setVisible(true);  // Enable and show the Warning label
+
+        // Create a QTimer to disable the Warning label after 1 second
+        QTimer::singleShot(1000, this, [this]() {
+            ui->Warning->setVisible(false);  // Disable the Warning label
+        });
+    }
+}
+
+
 
 
 
